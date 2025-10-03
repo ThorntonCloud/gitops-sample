@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: cgr.dev/chainguard/nginx
+  repository: thorntoncloud/nginx-gitops
   pullPolicy: Always
   tag: 8dc6bbf
 
