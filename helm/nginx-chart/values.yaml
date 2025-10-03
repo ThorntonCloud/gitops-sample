@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: cgr.dev/chainguard/nginx
   pullPolicy: Always
-  tag: "latest" # <- only because I'm not paying for an Nginx image...
+  tag: 8dc6bbf
 
 podLabels:
   app.kubernetes.io/name: simple-web-app
