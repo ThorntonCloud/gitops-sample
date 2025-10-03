@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: thorntoncloud/nginx-gitops
   pullPolicy: Always
-  tag: 8dc6bbf
+  tag: d4a9054
 
 podLabels:
   app.kubernetes.io/name: simple-web-app
